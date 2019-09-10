@@ -1,0 +1,29 @@
+header {
+  background-image: url('../img/post-image.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.header-container {
+  width: 50%;
+  height: auto;
+  margin: 50px auto;
+  padding-top: 200px;
+  padding-bottom: 20px;
+  text-align: center;
+  &__title {
+    margin-bottom: 150px;
+  }
+}
+
+.navbar-brand {
+  width: 20%;
+  height: auto;
+}
+
+.navbar-brand img {
+  width: 100%;
+  max-width: 50%;
+  height: auto;
+}

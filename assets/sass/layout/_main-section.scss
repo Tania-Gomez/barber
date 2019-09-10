@@ -1,0 +1,107 @@
+.blog{
+  width: 100%;
+  background: $white;
+  height: auto;
+  overflow: hidden;
+  text-align: left;
+  padding-top: 2rem;
+  &__container{
+    width: 80%;
+    height: auto;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: left;
+  }
+  &__container p{
+    font-family: 'Roboto', sans-serif;
+    color: $nickel;
+    font-weight: 400;
+    font-size: $medium;
+    text-align: left;
+    line-height: 250%;
+  }
+}
+// Seccion botones
+.buttons{
+  width: 100%;
+  background: $white;
+  height: auto;
+  text-align: left;
+  overflow: hidden;
+  display: inline-block;
+  &__container{
+    width: 80%;
+    height: auto;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+}
+// Seccion contacto
+.link {
+  color: $fuzy-wuzzy;
+  line-height: 250%;
+  &:hover {
+    color: $raisin-black;
+    text-decoration: none;
+  }
+  &:active {
+    color: $platinum;
+    text-decoration: none;
+  }
+}
+
+/* Media querie para dispositivos más grandes de 460*/
+@media (min-width:460px){
+  .menor460{
+  	display:none;
+  }
+  .mayor460{
+  	display:block; /* o inline-block */
+  }
+}
+/* Media querie para dispositivos menores de 460*/
+@media (max-width:460px){
+  .menor460{
+  	display:block;
+  }
+  .mayor460{
+  	display:none;
+  }
+}
+
+
+// Seccion pagination
+.paginationSection {
+  background: $light-gray;
+  padding: 6px;
+}
+.page-item:first-child .page-link {
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+.page-item:last-child .page-link {
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+.page-item.active .page-link{
+  background-color: $nickel;
+  border-color: $nickel;
+}
+.page-link {
+  color: $nickel;
+}
+// FOOTER
+.footer{
+  width: 100%;
+  background: $eerie-black;
+  height: auto;
+  text-align: center;
+  overflow: hidden;
+  &__container{
+    width: 20%;
+    height: auto;
+    max-width: 10%;
+    margin: 0 auto;
+    padding: 2rem 0;
+  }
+}

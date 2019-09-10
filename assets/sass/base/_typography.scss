@@ -1,0 +1,45 @@
+body{
+  width: 100%;
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+  color: $raisin-black;
+  background-color: $white;
+}
+
+h1{
+  font-family: 'Playfair', serif;
+  color: $white;
+  font-weight: 900;
+  font-size: $xx-large;
+  font-style: italic;
+}
+
+h2{
+  font-family: 'Playfair', serif;
+  color: $raisin-black;
+  font-weight: 900;
+  font-size: $x-large;
+  font-style: italic;
+}
+
+h3{
+  font-family: 'Roboto', sans-serif;
+  color: $raisin-black;
+  font-weight: 400;
+  font-size: $large;
+}
+
+h4{
+  font-family: 'Roboto', sans-serif;
+  color: $raisin-black;
+  font-weight: 400;
+  font-size: $medium;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  color: $nickel;
+  font-weight: 400r;
+  font-size: $medium;
+  text-align: left;
+}

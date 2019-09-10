@@ -1,0 +1,27 @@
+.buttons__btn{
+  background-color: $nickel;
+  border: 1px solid $nickel;
+  color: $white;
+  padding: 0.5rem 1rem;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  margin-right: 1rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: $medium;
+  border-radius: 50px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  &:hover{
+    background-color: $platinum;
+    border: 1px solid $platinum;
+    color: $nickel;
+  }
+  &:focus{
+    background-color: $nickel;
+    border: 2px solid $light-gray;
+    color: $white;
+  }
+}
